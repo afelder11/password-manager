@@ -92,7 +92,7 @@ def main():
             elif choice == "5":
                 site = input("Enter path: ")
                 password = input("Enter the password: ")
-                pm.add_password(site, password)2
+                pm.add_password(site, password)
             elif choice == "6":
                 site = input("What site do you want: ")
                 print(f"Password for {site} is {pm.get_password(site)}")
